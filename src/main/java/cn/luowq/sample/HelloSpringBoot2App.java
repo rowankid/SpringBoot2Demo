@@ -1,4 +1,4 @@
-package com.luowq.sample;
+package cn.luowq.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

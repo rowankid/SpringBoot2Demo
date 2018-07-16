@@ -1,10 +1,11 @@
-package com.luowq.sample;
+package cn.luowq.sample;
 
 import java.util.Arrays;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -39,4 +40,5 @@ public class AOPConfig {
 			throw e;
 		}
 	}
+
 }
